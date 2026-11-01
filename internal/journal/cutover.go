@@ -3,9 +3,9 @@ package journal
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/arm092/migres-go/internal/schema"
+	"github.com/arm092/migres-cdc/internal/schema"
 
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/model"
 	gm "github.com/go-mysql-org/go-mysql/mysql"
 	bolt "go.etcd.io/bbolt"
 )

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arm092/migres-go/internal/journal"
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/journal"
+	"github.com/arm092/migres-cdc/internal/model"
 )
 
 // Cancel at a deterministic context checkpoint, avoiding scheduling or row-count

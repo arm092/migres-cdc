@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arm092/migres-go/internal/config"
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/config"
+	"github.com/arm092/migres-cdc/internal/model"
 )
 
 func TestForwardGapRejectsMissingDDLHistory(t *testing.T) {

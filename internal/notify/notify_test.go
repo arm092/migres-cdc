@@ -3,7 +3,7 @@ package notify
 import (
 	"context"
 	"encoding/json"
-	"github.com/arm092/migres-go/internal/config"
+	"github.com/arm092/migres-cdc/internal/config"
 	"net/http"
 	"net/http/httptest"
 	"net/url"

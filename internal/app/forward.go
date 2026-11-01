@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/arm092/migres-go/internal/model"
-	"github.com/arm092/migres-go/internal/pipeline"
-	"github.com/arm092/migres-go/internal/schema"
+	"github.com/arm092/migres-cdc/internal/model"
+	"github.com/arm092/migres-cdc/internal/pipeline"
+	"github.com/arm092/migres-cdc/internal/schema"
 )
 
 // A gap may omit rows, but cannot silently omit schema history. Conservatively

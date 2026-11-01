@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arm092/migres-go/internal/config"
-	"github.com/arm092/migres-go/internal/journal"
-	"github.com/arm092/migres-go/internal/model"
-	"github.com/arm092/migres-go/internal/schema"
-	"github.com/arm092/migres-go/internal/source"
+	"github.com/arm092/migres-cdc/internal/config"
+	"github.com/arm092/migres-cdc/internal/journal"
+	"github.com/arm092/migres-cdc/internal/model"
+	"github.com/arm092/migres-cdc/internal/schema"
+	"github.com/arm092/migres-cdc/internal/source"
 	gm "github.com/go-mysql-org/go-mysql/mysql"
 	"github.com/go-mysql-org/go-mysql/replication"
 )

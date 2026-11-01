@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arm092/migres-go/internal/app"
-	"github.com/arm092/migres-go/internal/journal"
-	"github.com/arm092/migres-go/internal/source"
+	"github.com/arm092/migres-cdc/internal/app"
+	"github.com/arm092/migres-cdc/internal/journal"
+	"github.com/arm092/migres-cdc/internal/source"
 )
 
 // A stopped journal is restored with the unchanged target. The source advances

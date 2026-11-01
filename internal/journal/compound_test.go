@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/model"
 )
 
 func TestRetirementPreservesAbsorbedCompoundNameBarrier(t *testing.T) {

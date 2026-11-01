@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/model"
 )
 
 func (c *ClickHouse) verifyGeneration(ctx context.Context, s model.Schema) error {

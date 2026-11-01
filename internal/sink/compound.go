@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/arm092/migres-go/internal/model"
-	"github.com/arm092/migres-go/internal/schema"
+	"github.com/arm092/migres-cdc/internal/model"
+	"github.com/arm092/migres-cdc/internal/schema"
 )
 
 // PrepareCompoundAlter publishes the name transition first. RenameTask keeps an

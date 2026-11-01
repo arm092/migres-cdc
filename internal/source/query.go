@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/arm092/migres-go/internal/charset"
+	"github.com/arm092/migres-cdc/internal/charset"
 )
 
 // QueryText reads the charset prefix of MySQL's ordered query status variables.

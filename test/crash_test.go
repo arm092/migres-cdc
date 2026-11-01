@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arm092/migres-go/internal/app"
-	"github.com/arm092/migres-go/internal/config"
-	"github.com/arm092/migres-go/internal/source"
+	"github.com/arm092/migres-cdc/internal/app"
+	"github.com/arm092/migres-cdc/internal/config"
+	"github.com/arm092/migres-cdc/internal/source"
 )
 
 func TestCrashHelper(t *testing.T) {

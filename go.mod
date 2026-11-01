@@ -1,4 +1,4 @@
-module github.com/arm092/migres-go
+module github.com/arm092/migres-cdc
 
 go 1.26.9
 

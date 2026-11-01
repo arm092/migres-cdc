@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arm092/migres-go/internal/journal"
-	"github.com/arm092/migres-go/internal/model"
-	"github.com/arm092/migres-go/internal/source"
+	"github.com/arm092/migres-cdc/internal/journal"
+	"github.com/arm092/migres-cdc/internal/model"
+	"github.com/arm092/migres-cdc/internal/source"
 )
 
 func Transform(e model.Event) ([]model.Task, error) {

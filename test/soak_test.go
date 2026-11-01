@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arm092/migres-go/internal/app"
-	"github.com/arm092/migres-go/internal/pipeline"
-	"github.com/arm092/migres-go/internal/sink"
-	"github.com/arm092/migres-go/internal/source"
+	"github.com/arm092/migres-cdc/internal/app"
+	"github.com/arm092/migres-cdc/internal/pipeline"
+	"github.com/arm092/migres-cdc/internal/sink"
+	"github.com/arm092/migres-cdc/internal/source"
 	gm "github.com/go-mysql-org/go-mysql/mysql"
 )
 

@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arm092/migres-go/internal/app"
-	"github.com/arm092/migres-go/internal/model"
-	"github.com/arm092/migres-go/internal/schema"
-	"github.com/arm092/migres-go/internal/sink"
-	"github.com/arm092/migres-go/internal/source"
+	"github.com/arm092/migres-cdc/internal/app"
+	"github.com/arm092/migres-cdc/internal/model"
+	"github.com/arm092/migres-cdc/internal/schema"
+	"github.com/arm092/migres-cdc/internal/sink"
+	"github.com/arm092/migres-cdc/internal/source"
 )
 
 func TestReplicatedQuorumAndRebuild(t *testing.T) {

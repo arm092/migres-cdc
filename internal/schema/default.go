@@ -3,8 +3,8 @@ package schema
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/arm092/migres-go/internal/charset"
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/charset"
+	"github.com/arm092/migres-cdc/internal/model"
 	"github.com/pingcap/tidb/pkg/parser/ast"
 	"math/big"
 	"regexp"

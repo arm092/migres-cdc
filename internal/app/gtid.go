@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/model"
 )
 
 func (a *App) resolveGTID(raw string) (model.Position, error) {

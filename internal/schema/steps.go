@@ -3,8 +3,8 @@ package schema
 import (
 	"fmt"
 
-	"github.com/arm092/migres-go/internal/config"
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/config"
+	"github.com/arm092/migres-cdc/internal/model"
 	"github.com/pingcap/tidb/pkg/parser"
 	"github.com/pingcap/tidb/pkg/parser/ast"
 )

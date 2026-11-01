@@ -3,7 +3,7 @@ package schema
 import (
 	"testing"
 
-	"github.com/arm092/migres-go/internal/config"
+	"github.com/arm092/migres-cdc/internal/config"
 )
 
 func TestChangeColumnRetainsOrdinalPosition(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/arm092/migres-go/internal/config"
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/config"
+	"github.com/arm092/migres-cdc/internal/model"
 	"github.com/pingcap/tidb/pkg/parser"
 	"github.com/pingcap/tidb/pkg/parser/ast"
 	_ "github.com/pingcap/tidb/pkg/parser/test_driver"

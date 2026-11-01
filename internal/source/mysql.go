@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arm092/migres-go/internal/charset"
-	"github.com/arm092/migres-go/internal/config"
-	"github.com/arm092/migres-go/internal/journal"
-	"github.com/arm092/migres-go/internal/model"
-	"github.com/arm092/migres-go/internal/schema"
+	"github.com/arm092/migres-cdc/internal/charset"
+	"github.com/arm092/migres-cdc/internal/config"
+	"github.com/arm092/migres-cdc/internal/journal"
+	"github.com/arm092/migres-cdc/internal/model"
+	"github.com/arm092/migres-cdc/internal/schema"
 	driver "github.com/go-sql-driver/mysql"
 )
 

@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/arm092/migres-go/internal/model"
-	"github.com/arm092/migres-go/internal/schema"
+	"github.com/arm092/migres-cdc/internal/model"
+	"github.com/arm092/migres-cdc/internal/schema"
 )
 
 func (c *ClickHouse) DropOwned(ctx context.Context, s model.Schema) error {

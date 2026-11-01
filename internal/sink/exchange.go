@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/arm092/migres-go/internal/model"
-	"github.com/arm092/migres-go/internal/schema"
+	"github.com/arm092/migres-cdc/internal/model"
+	"github.com/arm092/migres-cdc/internal/schema"
 )
 
 // Exchange checks generation markers at each endpoint before swapping, so a

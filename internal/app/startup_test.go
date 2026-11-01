@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arm092/migres-go/internal/config"
+	"github.com/arm092/migres-cdc/internal/config"
 )
 
 func TestStartupStatus(t *testing.T) {

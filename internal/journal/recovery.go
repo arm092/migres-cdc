@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/model"
 	bolt "go.etcd.io/bbolt"
 )
 

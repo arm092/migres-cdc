@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/arm092/migres-go/internal/config"
+	"github.com/arm092/migres-cdc/internal/config"
 )
 
 // Keep all real source, journal and sink behavior, but hold an INSERT at the

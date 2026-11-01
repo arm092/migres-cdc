@@ -3,7 +3,7 @@ package pipeline
 import (
 	"testing"
 
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/model"
 )
 
 func TestUpdateKeyEmitsTombstone(t *testing.T) {

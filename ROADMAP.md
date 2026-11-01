@@ -58,4 +58,4 @@ Unsupported operations must continue to block safely until their recovery semant
 
 ## Propose a change
 
-Open an [issue](https://github.com/arm092/migres-go/issues) with the workload, observable problem, required guarantee, and a proposed acceptance check. See [contributing](CONTRIBUTING.md). [Sponsorship](https://github.com/sponsors/arm092) helps fund maintenance and compatibility testing.
+Open an [issue](https://github.com/arm092/migres-cdc/issues) with the workload, observable problem, required guarantee, and a proposed acceptance check. See [contributing](CONTRIBUTING.md). [Sponsorship](https://github.com/sponsors/arm092) helps fund maintenance and compatibility testing.

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arm092/migres-go/internal/config"
+	"github.com/arm092/migres-cdc/internal/config"
 )
 
 type Notifier struct {

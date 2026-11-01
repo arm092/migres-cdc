@@ -3,7 +3,7 @@ package app
 import (
 	"context"
 
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/model"
 )
 
 func (a *App) recoverOperations(ctx context.Context) error {

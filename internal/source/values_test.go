@@ -1,7 +1,7 @@
 package source
 
 import (
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/model"
 	"reflect"
 	"testing"
 )

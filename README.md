@@ -2,7 +2,7 @@
 
 **Keep ClickHouse in sync with MySQL using an online snapshot and continuous binlog replication.**
 
-[![CI](https://github.com/arm092/migres-go/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/arm092/migres-go/actions/workflows/ci.yml)
+[![CI](https://github.com/arm092/migres-cdc/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/arm092/migres-cdc/actions/workflows/ci.yml)
 [![Go](https://img.shields.io/badge/Go-1.26.9-00ADD8?logo=go&logoColor=white)](go.mod)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%99%A5-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/arm092)
@@ -33,8 +33,8 @@ MySQL -> Producer -> durable events -> Transformer -> durable tasks -> Consumer 
 The demo starts isolated MySQL and ClickHouse services, creates sample orders, and runs Migres. It uses publicly known demo credentials. Only the Migres HTTP endpoint is published, on `127.0.0.1:18080`.
 
 ```sh
-git clone https://github.com/arm092/migres-go.git
-cd migres-go
+git clone https://github.com/arm092/migres-cdc.git
+cd migres-cdc
 docker compose -f examples/compose.yml up -d --build --wait
 curl --fail http://127.0.0.1:18080/readyz
 ```

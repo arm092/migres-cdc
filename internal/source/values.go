@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arm092/migres-go/internal/charset"
-	"github.com/arm092/migres-go/internal/model"
+	"github.com/arm092/migres-cdc/internal/charset"
+	"github.com/arm092/migres-cdc/internal/model"
 	"unicode/utf8"
 )
 
