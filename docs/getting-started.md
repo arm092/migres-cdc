@@ -6,7 +6,7 @@
 
 | Component | Requirement |
 | --- | --- |
-| Build | Go 1.26.9 |
+| Build | Go 1.26.10 |
 | Runtime | Linux, Docker, or Kubernetes |
 | MySQL | Tested on 5.7, 8.0, and 8.4; InnoDB tables |
 | ClickHouse | Tested on 24.8 and 26.8; a dedicated Atomic database |

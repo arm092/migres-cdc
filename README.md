@@ -3,7 +3,7 @@
 **Keep ClickHouse in sync with MySQL using an online snapshot and continuous binlog replication.**
 
 [![CI](https://github.com/arm092/migres-cdc/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/arm092/migres-cdc/actions/workflows/ci.yml)
-[![Go](https://img.shields.io/badge/Go-1.26.9-00ADD8?logo=go&logoColor=white)](go.mod)
+[![Go](https://img.shields.io/badge/Go-1.26.10-00ADD8?logo=go&logoColor=white)](go.mod)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%99%A5-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/arm092)
 
@@ -60,7 +60,7 @@ See [the complete demo](examples/README.md) for deletes, key changes, status, an
 
 ## Use your own databases
 
-Requires Go **1.26.9** to build. Runtime deployment targets Linux, Docker, and Kubernetes. Windows is supported for development; exercise Unix socket control and Linux signals on Linux.
+Requires Go **1.26.10** to build. Runtime deployment targets Linux, Docker, and Kubernetes. Windows is supported for development; exercise Unix socket control and Linux signals on Linux.
 
 ```sh
 go build -o bin/migres ./cmd/migres

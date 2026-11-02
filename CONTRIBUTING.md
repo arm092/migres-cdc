@@ -10,7 +10,7 @@ Do not post credentials, private keys, production rows, debug payload archives, 
 
 ## Development
 
-Use Go 1.26.9 and run relevant checks from [verification](docs/verification.md). Database/fault fixtures are disposable; source-purge tests and replica-loss tests deliberately mutate their named test services.
+Use Go 1.26.10 and run relevant checks from [verification](docs/verification.md). Database/fault fixtures are disposable; source-purge tests and replica-loss tests deliberately mutate their named test services.
 
 Keep Producer, Transformer, and Consumer responsibilities explicit. Preserve table order, atomic durable handoffs, stable replay identities, and ownership checks. Add focused regression coverage for a demonstrated correctness or recovery gap; documentation-only changes need link/example verification rather than redundant tests.
 
